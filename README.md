@@ -19,11 +19,15 @@ Queremos um dev talentoso, motivado e que esteja disposto a aprender diariamente
 * **Presencial, Sâo Carlos SP**
 
 # O Processo seletivo - ETAPA 1
+
 Para participar do processo seletivo, convidamos você a resolver a primeira etapa do processo seletivo.
 
 **Dê um fork neste repositório e resolva os testes**.
+
 Assim que **terminar**, nos envie o link para o bitbucket **do projeto com as respostas** para o e-mail dev@petiko.com.br.
 
 Nesta etapa o objetivo é analisar um pouco de sua familiaridade com as linguagens Html,Css e JavaScript.
+
 Você não é obrigado a entregar todos os testes resolvidos, porém, ele será utilizado como critério para a eleição a próxima fase.
+
 Boa sorte!!!
