@@ -38,7 +38,11 @@ O que esperamos:
 -Padrões de Projeto, UX, e boas práticas de programação;
 -Criar 	uma breve descrição sobre as soluções utilizadas.
 
+Diferenciais (não obrigatorios).
+-Criar a aplicação em laravel.
+-Subir uma versão em algum host.
+
 ** Use sua criatividade para criar as páginas, será levado muito em conta a beleza e a fluidez de sua aplicação,
-fique a vontade para inserir elementos que agreguem valor a suas páginas... **
+fique a vontade para inserir elementos e funcionalidades que agreguem valor a suas páginas... **
 
 
