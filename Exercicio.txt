@@ -32,6 +32,7 @@ Pré-requisitos:
 -Todos os componentes apresentados devem ter a aparência responsiva.
 -É 	obrigatório utilização do framework Bootstrap.	
 -As páginas devem ser navegáveis entre si.
+-Usar Vue.js nas paginas de front
 
 
 O que esperamos:
@@ -40,7 +41,6 @@ O que esperamos:
 
 Diferenciais (não obrigatorios).
 -Criar a aplicação em laravel.
--Usar Vue.js nas paginas de front
 -Subir uma versão em algum host.
 
 ** Use sua criatividade para criar as páginas, será levado muito em conta a beleza e a fluidez de sua aplicação,
