@@ -20,7 +20,7 @@ Seu objetivo é criar uma simples aplicação que contenha quatro páginas sendo
 - Uma campo para upload de imagem.
 - Uma src que mostra um preview da imagem.	
 - Um botão para enviar os dados.	
-- O botão que envia os dados deve executar um POST utilizando AJAX.	
+- O botão que envia os dados deve executar um POST utilizando AXIOS.	
 
 *Uma página que exibe os dados do formulário acima (dados fictícios, podem ser feitos hard-code).	
 
