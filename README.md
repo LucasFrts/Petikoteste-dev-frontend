@@ -29,7 +29,7 @@ Para participar do processo seletivo, convidamos você a resolver a primeira.
 
 Assim que **terminar**, nos envie o link para o bitbucket **do projeto com as respostas** para o e-mail dev@petiko.com.br.
 
-Nesta etapa o objetivo é analisar um pouco de sua familiaridade com as linguagens Html,Css e JavaScript.
+Nesta etapa o objetivo é analisar um pouco de sua familiaridade com as linguagens Html,Css e frameworks JavaScript.
 
 Você não é obrigado a entregar todos os testes resolvidos, porém, ele será utilizado como critério para a eleição a próxima fase.
 
