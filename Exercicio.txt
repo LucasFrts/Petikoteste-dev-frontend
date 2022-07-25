@@ -40,6 +40,7 @@ O que esperamos:
 
 Diferenciais (não obrigatorios).
 -Criar a aplicação em laravel.
+-Usar Vue.js nas paginas de front
 -Subir uma versão em algum host.
 
 ** Use sua criatividade para criar as páginas, será levado muito em conta a beleza e a fluidez de sua aplicação,
