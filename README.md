@@ -17,9 +17,9 @@ Queremos um dev talentoso, motivado e que esteja disposto a aprender diariamente
 **Sobre as vagas:**
 
 * **Estágio 30h**
-* **Presencial, Sâo Carlos SP**
+* **Presencial, ou remoto**
 * **CLT 40h**
-* **Presencial, Sâo Carlos SP**
+* **Presencial, ou remoto**
 
 # O Processo seletivo - ETAPA 1
 
