@@ -1,12 +1,12 @@
 @extends('templates.layout')
 
 @section('title')
-Subscriebers
+Subscribers
 @endsection
 
 @section('content')
 <div id="app">
-    <Home-Component active="{{ $active }}"/>
+    <Subscribers-Component active="{{ $active }}"/>
 </div>
   
 @endsection

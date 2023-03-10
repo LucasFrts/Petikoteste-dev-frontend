@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg bg-pallet">
       <div class="container-fluid d-flex justify-content-between">
-        <a class="navbar-brand" href="/">Palleteria</a>
+        <a class="navbar-brand" href="/home">Palleteria</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -14,19 +14,43 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <div
+          class="collapse navbar-collapse flex-grow-0"
+          id="navbarSupportedContent"
+        >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" :class="{active: active == 'home'}" aria-current="page" href="/">Home</a>
+              <a
+                class="nav-link"
+                :class="{ active: active == 'home' }"
+                aria-current="page"
+                href="/Home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" :class="{active: active == 'cadastrar'}" href="/Subscribe">Cadastrar</a>
+              <a
+                class="nav-link"
+                :class="{ active: active == 'cadastrar' }"
+                href="/Subscribe"
+                >Cadastrar</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" :class="{active: active == 'inscritos'}" href="/Subscriebers">Inscritos</a>
+              <a
+                class="nav-link"
+                :class="{ active: active == 'inscritos' }"
+                href="/Subscribers"
+                >Cadastros</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" :class="{active: active == 'sobre'}" href="/AboutUs">Sobre</a>
+              <a
+                class="nav-link"
+                :class="{ active: active == 'sobre' }"
+                href="/AboutUs"
+                >Sobre</a
+              >
             </li>
           </ul>
         </div>
@@ -36,37 +60,40 @@
 </template>
 <script>
 export default {
-  props:{
-    active:{
-      type:String,
-    }
-  }
+  props: {
+    active: {
+      type: String,
+    },
+  },
 };
 </script>
 <style scoped>
-.bg-pallet{
-  background-color: #F2CF63
+.bg-pallet {
+  background-color: #f2cf63;
 }
-.nav-link{
-  color: #885f12
+.nav-link {
+  color: #885f12;
 }
-.nav-link:hover{
-  color: #533909
+.nav-link:hover {
+  color: #533909;
 }
-.active{
+.active {
   color: #442f08 !important;
 }
-.active:hover{
+.active:hover {
   color: #533909 !important;
 }
-a{
+a {
   font-weight: bold;
 }
-.navbar{
-  border-bottom:1px solid #dba6445b ;
+.navbar {
+  border-bottom: 1px solid #dba6445b;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
 }
-.navbar-brand{
+.navbar-brand {
   padding: 8px !important;
-  font-size: 1.25rem
+  font-size: 1.25rem;
 }
 </style>

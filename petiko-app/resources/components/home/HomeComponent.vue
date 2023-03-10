@@ -1,7 +1,7 @@
 <template>
     <div>
         <NavbarVue :active="active"/> 
-        <div class="container-fluid">
+        <div class="container-fluid pd-top">
             <div class="main-page-padd" v-for="(card, index) in data" :key="index">
                 <CardAdvertisement :main-text="card.mainText" :background="card.background" :button="card.button" :sub-text="card.subText" :invert="card.invert" :img="card.img"/>
             </div>
@@ -11,7 +11,7 @@
 </template>
 <script>
 import NavbarVue from '../util/Navbar.vue'
-import CardAdvertisement from './CardAdvertisement.vue'
+import CardAdvertisement from '../util/CardAdvertisement.vue'
 export default {
     name:"HomeComponent",
     components:{NavbarVue, CardAdvertisement},

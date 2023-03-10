@@ -6,7 +6,7 @@ Subscribe
 
 @section('content')
 <div id="app">
-    <Home-Component active="{{ $active }}"/>
+    <Subscribe-Component active="{{ $active }}"/>
 </div>
 
   

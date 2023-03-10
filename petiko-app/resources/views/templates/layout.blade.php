@@ -12,7 +12,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
-        <!-- Bootstrap -->
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:wght@100&family=Tilt+Warp&display=swap" rel="stylesheet">       <!-- Bootstrap -->
         <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
         <script src="Bootstrap/bootstrap.bundle.min.js"></script>
         <!-- Styles -->
@@ -23,10 +27,21 @@
             .container-fluid{
                 padding-right: 0 !important;
                 padding-left: 0 !important;
+                overflow-x: hidden;
+                
+            }
+            .pd-top{
+                padding-top:3.5rem;
             }
             body {
                 font-family: 'Nunito', sans-serif;
                 background: #fff7df;
+            }
+            p{
+                font-family: 'Montserrat', 'sans-serif' !important;
+            }
+            h2{
+                font-family: 'Baloo 2', 'cursive' !important;
             }
             ::-webkit-scrollbar {
   width: 10px; /* largura da scrollbar */

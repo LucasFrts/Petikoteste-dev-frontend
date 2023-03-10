@@ -42,7 +42,7 @@ var render = function render() {
   }, [_c("a", {
     staticClass: "navbar-brand",
     attrs: {
-      href: "/"
+      href: "/home"
     }
   }, [_vm._v("Palleteria")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c("div", {
     staticClass: "collapse navbar-collapse flex-grow-0",
@@ -60,7 +60,7 @@ var render = function render() {
     },
     attrs: {
       "aria-current": "page",
-      href: "/"
+      href: "/Home"
     }
   }, [_vm._v("Home")])]), _vm._v(" "), _c("li", {
     staticClass: "nav-item"
@@ -80,9 +80,9 @@ var render = function render() {
       active: _vm.active == "inscritos"
     },
     attrs: {
-      href: "/Subscriebers"
+      href: "/Subscribers"
     }
-  }, [_vm._v("Inscritos")])]), _vm._v(" "), _c("li", {
+  }, [_vm._v("Cadastros")])]), _vm._v(" "), _c("li", {
     staticClass: "nav-item"
   }, [_c("a", {
     staticClass: "nav-link",
@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.bg-pallet[data-v-5e2eddc8]{\n  background-color: #F2CF63\n}\n.nav-link[data-v-5e2eddc8]{\n  color: #885f12\n}\n.nav-link[data-v-5e2eddc8]:hover{\n  color: #533909\n}\n.active[data-v-5e2eddc8]{\n  color: #442f08 !important;\n}\n.active[data-v-5e2eddc8]:hover{\n  color: #533909 !important;\n}\na[data-v-5e2eddc8]{\n  font-weight: bold;\n}\n.navbar[data-v-5e2eddc8]{\n  border-bottom:1px solid #dba6445b ;\n}\n.navbar-brand[data-v-5e2eddc8]{\n  padding: 8px !important;\n  font-size: 1.25rem\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.bg-pallet[data-v-5e2eddc8] {\n  background-color: #f2cf63;\n}\n.nav-link[data-v-5e2eddc8] {\n  color: #885f12;\n}\n.nav-link[data-v-5e2eddc8]:hover {\n  color: #533909;\n}\n.active[data-v-5e2eddc8] {\n  color: #442f08 !important;\n}\n.active[data-v-5e2eddc8]:hover {\n  color: #533909 !important;\n}\na[data-v-5e2eddc8] {\n  font-weight: bold;\n}\n.navbar[data-v-5e2eddc8] {\n  border-bottom: 1px solid #dba6445b;\n  position: fixed;\n  z-index: 9999;\n  width: 100%;\n}\n.navbar-brand[data-v-5e2eddc8] {\n  padding: 8px !important;\n  font-size: 1.25rem;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
