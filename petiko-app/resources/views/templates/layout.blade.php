@@ -71,7 +71,7 @@
         </style>
 
         
-            @yield('scripts')
+
     
     </head>
     
@@ -85,5 +85,6 @@
     -->
        @yield('content')
        
+       @yield('scripts')
     </body>
 </html>
