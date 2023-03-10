@@ -1,14 +1,13 @@
 @extends('templates.layout')
 
 @section('title')
-Home
+Subscriebers
 @endsection
 
 @section('content')
 <div id="app">
-    <Home-Component/>
+    <Home-Component active="{{ $active }}"/>
 </div>
-
   
 @endsection
 

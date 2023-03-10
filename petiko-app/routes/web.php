@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.home');
+    return view('pages.home')->with('active', 'home');
+});
+Route::get('/Subscribe', function () {
+    return view('pages.subscribe')->with('active', 'cadastrar');
+});
+Route::get('/Subscriebers', function () {
+    return view('pages.subscriebers')->with('active', 'inscritos');
+});
+Route::get('/AboutUs', function () {
+    return view('pages.aboutus')->with('active', 'sobre');
 });
